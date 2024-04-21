@@ -1,6 +1,9 @@
 .bg-body-tertiary {
     background-color: #6B3CC9 !important;
 }
+.bg-body-tertiary:has(button[aria-expanded="true"]) {
+    background-color: white !important;
+}
 .navbar-nav.ms-auto.mb-2.mb-lg-0 {
     color: white ;
 }
