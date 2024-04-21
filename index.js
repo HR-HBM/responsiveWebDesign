@@ -11,11 +11,11 @@ function myFunction() {
 
     var navigator = document.querySelector('.bg-body-tertiary');
 
-    if (isColorWhite) {
-      navigator.style.setProperty('background-color', '#6B3CC9', 'important');
-  } else {
-      navigator.style.setProperty('background-color', 'white', 'important');
-  }
+  //   if (isColorWhite) {
+  //     navigator.style.setProperty('background-color', '#6B3CC9', 'important');
+  // } else {
+  //     navigator.style.setProperty('background-color', 'white', 'important');
+  // }
 
     var links = document.querySelectorAll('.nav-link');
     links.forEach(function(link) {
